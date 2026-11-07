@@ -1,0 +1,22 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
